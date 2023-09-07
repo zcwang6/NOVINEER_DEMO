@@ -74,7 +74,7 @@ function vtkRun(openCascade, shapes, volumeToFaceMap, isVolumeMode) {
 
   // Note: This is list of highlighted face/volume Ids, please retrieve
   // them from database.  This information need to get from S3
-  let highligtArray = [2, 4];// format int [2,4]
+  let highligtArray = [1];// format int [2,4]
 
   // current renderer
   var renderer = fullScreenRenderer.getRenderer();
